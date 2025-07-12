@@ -1,3 +1,3 @@
 # practice
 My Own Practice
-AmazonWebPage automatecode-lorem
+AmazonWebPage automatecode-loren
