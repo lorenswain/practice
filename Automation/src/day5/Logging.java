@@ -6,5 +6,6 @@ public class Logging{
 		System.out.println("I'm the logger");
 
 System.out.println("Latest");
+
 	}
 }
