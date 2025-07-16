@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Amazon_webpage_TestCase_Testing.Regression_Detail">
+        <methods>
+          <include name="detailpage_SSD_msg_after_decrease_quantity"/>
+          <include name="detailpage_addtoCart"/>
+          <include name="detailpage__Above_SSD_msg"/>
+          <include name="detailpage_Below_SSD_msg"/>
+          <include name="detailpage_BelowFST_addtoCart"/>
+          <include name="detailpage_SSD_msg_after_increase_quantity"/>
+          <include name="detailpage_BelowFST_Buy_now"/>
+          <include name="detailpage_Buy_now"/>
+          <include name="detailpage_aboveTo_Below_SSD_msg_after_decrease_quantity"/>
+          <include name="detailpage_belowTo_Above_after_increase_quantity"/>
+        </methods>
+      </class> <!-- Amazon_webpage_TestCase_Testing.Regression_Detail -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
