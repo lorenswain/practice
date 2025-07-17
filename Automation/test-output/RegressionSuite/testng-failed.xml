@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RegressionGroupOnly(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Amazon_webpage_TestCase_Testing.Regression_Search">
+        <methods>
+          <include name="setup"/>
+          <include name="landingSearchpage_lego"/>
+        </methods>
+      </class> <!-- Amazon_webpage_TestCase_Testing.Regression_Search -->
+    </classes>
+  </test> <!-- RegressionGroupOnly(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

@@ -3,17 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon_webpage_testing.TestCase">
+      <class name="Amazon_webpage_TestCase_Testing.Regression_Search">
         <methods>
-          <include name="checkout"/>
-          <include name="CartPage"/>
-          <include name="Setup"/>
-          <include name="Login"/>
-          <include name="quit"/>
-          <include name="detailpage"/>
-          <include name="SearchandPrimecheck"/>
+          <include name="setup"/>
+          <include name="get_SSD_filter"/>
         </methods>
-      </class> <!-- amazon_webpage_testing.TestCase -->
+      </class> <!-- Amazon_webpage_TestCase_Testing.Regression_Search -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

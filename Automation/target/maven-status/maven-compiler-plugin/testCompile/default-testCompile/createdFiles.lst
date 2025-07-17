@@ -1,0 +1,6 @@
+test\java\resources\tests\RegressionCheckoutTest.class
+test\java\resources\tests\SmokeTest.class
+test\java\resources\tests\RegressionDetailTest.class
+test\java\resources\tests\RegressionSearchTest.class
+test\java\resources\tests\RegressionCartTest.class
+test\java\resources\tests\BaseTest.class
